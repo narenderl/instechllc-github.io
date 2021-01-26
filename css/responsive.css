@@ -1,0 +1,48 @@
+@media (min-width: 320px) and (max-width: 767px){
+    h1, h2{font-size:28px;line-height: 35px;}
+    h3{font-size:25px;}
+    h4{font-size: 20px;line-height: 25px;}
+    p{font-size: 16px;line-height: 26px;}
+    section{padding: 50px 0px;}
+    .view-all{text-align: center;padding-top:10px;width: 100%;}
+    /*===============================================
+    Main Header Css
+    =================================================*/
+    .header_area {position:inherit;width:100%;float:left;}
+    .navbar-brand img {width: 140px;}
+    .menu_one{padding: 10px;}
+    header.header_area {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background: #fff;
+        padding: 10px 0px;
+        z-index: 9999;
+        box-shadow: 0px 5px 10px 1px #aeaeae17;
+    }
+    .nav-header img {
+        width: 220px;
+    }
+    .navigation-portrait .nav-search-button {
+        line-height: 58px;
+    }
+    .navigation-portrait .nav-search {
+        height: 48px;
+        padding: inherit;
+        margin-right: 0;
+    }
+    .nav-toggle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 2px 0;
+        position: absolute;
+        top: 50%;
+        margin-top: -14px;
+        right: 50px;
+        display: none;
+        cursor: pointer;
+    }
+}
+
+
